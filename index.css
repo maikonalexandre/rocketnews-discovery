@@ -1,0 +1,131 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    font-size: 62.5%;
+  }
+  .wrapper{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  .container{
+    height: 72rem;
+    width: 128rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'a b';   
+  }
+  .logo img{
+    width: 38.9rem;
+  }
+  .content h2{
+    font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: var(--title-color);
+  padding-top: 9.2rem;
+  }
+  .content h3{
+    padding-block: 0.9rem;
+    font-family: 'Spartan';
+font-style: normal;
+font-weight: 700;
+font-size: 1.4rem;
+line-height: 1.6rem;
+color: var(--text-color);
+
+  }
+.content p{
+  font-family: 'Spartan';
+font-style: normal;
+font-weight: 500;
+font-size: 1.4rem;
+line-height: 1.9rem;
+color: var(--text-color);
+}
+.form{
+  position: absolute;
+  z-index: 1;
+  margin-top: 38.8rem;
+  margin-left: 3.6rem;
+
+}
+.form input{
+  width: 68rem;
+height: 4.8rem;
+}
+.form button{
+  width: 4.8rem;
+  height: 4.8rem;
+  background-color: var(--bg-button-color);
+  border: none;
+  color: var(--text-color);
+}
+.form button img{
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.form label{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 138.73%;
+  color: var(--text-color);
+}
+.submitArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.7rem; 
+}
+footer h3{
+  font-family: 'Spartan';
+font-style: normal;
+font-weight: 700;
+font-size: 1.4rem;
+line-height: 138.73%;
+color: var(--bg-button-color);
+}
+footer{
+  position:absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 52.2rem;
+  margin-left: 3.6rem;
+}
+  .col-a{
+    background-color: var(--body-bg-color);
+    padding: 5rem 3rem;
+  
+  }
+ /* .col-b{
+    background: url(/assets/read_news.jpg);
+  }*/
+  .col-b{
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  .col-b img{
+    position: absolute;
+    width: 117.5rem;
+    height: 90rem;
+    transform: translateX(-40rem);
+  
+  }
